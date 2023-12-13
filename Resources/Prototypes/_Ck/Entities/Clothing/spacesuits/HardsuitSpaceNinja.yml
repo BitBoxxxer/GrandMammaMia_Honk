@@ -1,0 +1,141 @@
+# Black - Jumpskirt
+
+- type: entity
+  parent: ClothingOuterSuitSpaceNinja
+  id: ClothingOuterJumpskirtBlackBlueSpaceNinja
+  name: space ninja skirt blue
+  suffix: _Ck
+  description: This black technologically advanced, cybernetically-enhanced suit provides many abilities like invisibility or teleportation.
+  components:
+  - type: Sprite
+    sprite: _Ck/Entities/clothing/outerclothings/spaceninja.rsi/Black/Jumpskirt/Blue.rsi
+  - type: Clothing
+    sprite: _Ck/Entities/clothing/outerclothings/spaceninja.rsi/Black/Jumpskirt/Blue.rsi
+
+
+- type: entity
+  parent: ClothingOuterSuitSpaceNinja
+  id: ClothingOuterJumpskirtBlackGreenSpaceNinja
+  name: space ninja skirt green
+  suffix: _Ck
+  description: This black technologically advanced, cybernetically-enhanced suit provides many abilities like invisibility or teleportation.
+  components:
+  - type: Sprite
+    sprite: _Ck/Entities/clothing/outerclothings/spaceninja.rsi/Black/Jumpskirt/Green.rsi
+  - type: Clothing
+    sprite: _Ck/Entities/clothing/outerclothings/spaceninja.rsi/Black/Jumpskirt/Green.rsi
+
+- type: entity
+  parent: ClothingOuterSuitSpaceNinja
+  id: ClothingOuterJumpskirtBlackRedSpaceNinja
+  name: space ninja skirt red
+  suffix: _Ck
+  description: This black technologically advanced, cybernetically-enhanced suit provides many abilities like invisibility or teleportation.
+  components:
+  - type: Sprite
+    sprite: _Ck/Entities/clothing/outerclothings/spaceninja.rsi/Black/Jumpskirt/Red.rsi
+  - type: Clothing
+    sprite: _Ck/Entities/clothing/outerclothings/spaceninja.rsi/Black/Jumpskirt/Red.rsi
+
+# Black - Jumpsuit
+
+- type: entity
+  parent: ClothingOuterSuitSpaceNinja
+  id: ClothingOuterJumpsuitBlackRedSpaceNinja
+  name: space ninja suit red
+  suffix: _Ck
+  description: This black technologically advanced, cybernetically-enhanced suit provides many abilities like invisibility or teleportation.
+  components:
+  - type: Sprite
+    sprite: _Ck/Entities/clothing/outerclothings/spaceninja.rsi/Black/Jumpsuit/Red.rsi
+  - type: Clothing
+    sprite: _Ck/Entities/clothing/outerclothings/spaceninja.rsi/Black/Jumpsuit/Red.rsi
+
+- type: entity
+  parent: ClothingOuterSuitSpaceNinja
+  id: ClothingOuterJumpsuitBlackBlueSpaceNinja
+  name: space ninja suit blue
+  suffix: _Ck
+  description: This black technologically advanced, cybernetically-enhanced suit provides many abilities like invisibility or teleportation.
+  components:
+  - type: Sprite
+    sprite: _Ck/Entities/clothing/outerclothings/spaceninja.rsi/Black/Jumpsuit/Blue.rsi
+  - type: Clothing
+    sprite: _Ck/Entities/clothing/outerclothings/spaceninja.rsi/Black/Jumpsuit/Blue.rsi
+
+
+# Grey - Jumpskirt
+
+- type: entity
+  parent: ClothingOuterSuitSpaceNinja
+  id: ClothingOuterJumpskirtGreyRedSpaceNinja
+  name: space ninja Jumpskirt red
+  suffix: _Ck
+  description: This grey technologically advanced, cybernetically-enhanced suit provides many abilities like invisibility or teleportation.
+  components:
+  - type: Sprite
+    sprite: _Ck/Entities/clothing/outerclothings/spaceninja.rsi/Grey/Jumpskirt/Red.rsi
+  - type: Clothing
+    sprite: _Ck/Entities/clothing/outerclothings/spaceninja.rsi/Grey/Jumpskirt/Red.rsi
+
+- type: entity
+  parent: ClothingOuterSuitSpaceNinja
+  id: ClothingOuterJumpskirtGreyBlueSpaceNinja
+  name: space ninja Jumpskirt blue
+  suffix: _Ck
+  description: This grey technologically advanced, cybernetically-enhanced suit provides many abilities like invisibility or teleportation.
+  components:
+  - type: Sprite
+    sprite: _Ck/Entities/clothing/outerclothings/spaceninja.rsi/Grey/Jumpskirt/Blue.rsi
+  - type: Clothing
+    sprite: _Ck/Entities/clothing/outerclothings/spaceninja.rsi/Grey/Jumpskirt/Blue.rsi
+
+- type: entity
+  parent: ClothingOuterSuitSpaceNinja
+  id: ClothingOuterJumpskirtGreyGreenSpaceNinja
+  name: space ninja Jumpskirt green
+  suffix: _Ck
+  description: This grey technologically advanced, cybernetically-enhanced suit provides many abilities like invisibility or teleportation.
+  components:
+  - type: Sprite
+    sprite: _Ck/Entities/clothing/outerclothings/spaceninja.rsi/Grey/Jumpskirt/Green.rsi
+  - type: Clothing
+    sprite: _Ck/Entities/clothing/outerclothings/spaceninja.rsi/Grey/Jumpskirt/Green.rsi
+
+# Grey Jumpsuit
+
+- type: entity
+  parent: ClothingOuterSuitSpaceNinja
+  id: ClothingOuterJumpsuitGreyGreenSpaceNinja
+  name: space ninja jumpsuit green
+  suffix: _Ck
+  description: This grey technologically advanced, cybernetically-enhanced suit provides many abilities like invisibility or teleportation.
+  components:
+  - type: Sprite
+    sprite: _Ck/Entities/clothing/outerclothings/spaceninja.rsi/Grey/Jumpsuit/Green.rsi
+  - type: Clothing
+    sprite: _Ck/Entities/clothing/outerclothings/spaceninja.rsi/Grey/Jumpsuit/Green.rsi
+
+- type: entity
+  parent: ClothingOuterSuitSpaceNinja
+  id: ClothingOuterJumpsuitGreyBlueSpaceNinja
+  name: space ninja jumpsuit blue
+  suffix: _Ck
+  description: This grey technologically advanced, cybernetically-enhanced suit provides many abilities like invisibility or teleportation.
+  components:
+  - type: Sprite
+    sprite: _Ck/Entities/clothing/outerclothings/spaceninja.rsi/Grey/Jumpsuit/Blue.rsi
+  - type: Clothing
+    sprite: _Ck/Entities/clothing/outerclothings/spaceninja.rsi/Grey/Jumpsuit/Blue.rsi
+
+- type: entity
+  parent: ClothingOuterSuitSpaceNinja
+  id: ClothingOuterJumpsuitGreyRedSpaceNinja
+  name: space ninja jumpsuit red
+  suffix: _Ck
+  description: This grey technologically advanced, cybernetically-enhanced suit provides many abilities like invisibility or teleportation.
+  components:
+  - type: Sprite
+    sprite: _Ck/Entities/clothing/outerclothings/spaceninja.rsi/Grey/Jumpsuit/Red.rsi
+  - type: Clothing
+    sprite: _Ck/Entities/clothing/outerclothings/spaceninja.rsi/Grey/Jumpsuit/Red.rsi
