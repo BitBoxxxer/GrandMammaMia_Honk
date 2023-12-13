@@ -1,76 +1,80 @@
-- type: entity
-  parent: ClothingUniformSkirtBase
-  id: ClothingUniformJumpskirtChef_ck
-  name: униформа настоящего шеф-повара
-  description: униформа настоящего шеф-повара
-  components:
-  - type: Sprite
-    sprite: _Ck/Entities/clothing/uniform/skirt/chef_ck.rsi
-  - type: Clothing
-    sprite: _Ck/Entities/clothing/uniform/skirt/chef_ck.rsi
+# Jumpsuit
 
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitChef_ck
-  name: униформа настоящего шеф-повара
+  name: Униформа настоящего шеф-повара
   description: униформа настоящего шеф-повара
   components:
   - type: Sprite
-    sprite: _Ck/Entities/clothing/uniform/jump/chef_ck.rsi
+    sprite: _Ck/Clothing/Uniform/jump/chef_ck.rsi
   - type: Clothing
-    sprite: _Ck/Entities/clothing/uniform/jump/chef_ck.rsi
-
-- type: entity
-  parent: ClothingUniformSkirtBase
-  id: ClothingUniformJumpskirtPovar_ck
-  name: униформа повара
-  description: униформа повара
-  components:
-  - type: Sprite
-    sprite: _Ck/Entities/clothing/uniform/skirt/Povar_ck.rsi
-  - type: Clothing
-    sprite: _Ck/Entities/clothing/uniform/skirt/Povar_ck.rsi
+    sprite: _Ck/Clothing/Uniform/jump/chef_ck.rsi
 
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitPovar_ck
-  name: униформа повара
+  name: Униформа повара
   description: униформа повара
   components:
   - type: Sprite
-    sprite: _Ck/Entities/clothing/uniform/jump/Povar_ck.rsi
+    sprite: _Ck/Clothing/Uniform/jump/Povar_ck.rsi
   - type: Clothing
-    sprite: _Ck/Entities/clothing/uniform/jump/Povar_ck.rsi
-
-- type: entity
-  parent: ClothingUniformSkirtBase
-  id: ClothingUniformJumpskirtLox
-  name: одежда бомжа
-  description: Ты жив благодаря ей.
-  components:
-  - type: Sprite
-    sprite: _Ck/Entities/clothing/uniform/skirt/lox.rsi
-  - type: Clothing
-    sprite: _Ck/Entities/clothing/uniform/skirt/lox.rsi
+    sprite: _Ck/Clothing/Uniform/jump/Povar_ck.rsi
 
 - type: entity
   parent: ClothingUniformBase
-  id: ClothingUniformJumpsuitLox
-  name: одежда бомжа
-  description: Ты жив благодаря ей.
+  id: ClothingUniformJumpsuitBum
+  name: Дырявая рубашка
+  description: Дырявая тряпка, что согревает вас.
   components:
   - type: Sprite
-    sprite: _Ck/Entities/clothing/uniform/jump/lox.rsi
+    sprite: _Ck/Clothing/Uniform/jump/bum.rsi
   - type: Clothing
-    sprite: _Ck/Entities/clothing/uniform/jump/lox.rsi
+    sprite: _Ck/Clothing/Uniform/jump/bum.rsi
 
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitCentcom
-  name: форма ЦК
+  name: Форма ЦК
   description: форма ЦК
   components:
   - type: Sprite
-    sprite: _Ck/Entities/clothing/uniform/jump/centcom_official.rsi
+    sprite: _Ck/Clothing/Uniform/jump/centcom_official.rsi
   - type: Clothing
-    sprite: _Ck/Entities/clothing/uniform/jump/centcom_official.rsi
+    sprite: _Ck/Clothing/Uniform/jump/centcom_official.rsi
+
+# JumpSkirt
+
+- type: entity
+  parent: ClothingUniformSkirtBase
+  id: ClothingUniformJumpskirtBum
+  name: Одежда бомжа
+  description: Ты жив благодаря ей.
+  components:
+  - type: Sprite
+    sprite: _Ck/Clothing/Uniform/skirt/bum.rsi
+  - type: Clothing
+    sprite: _Ck/Clothing/Uniform/skirt/bum.rsi
+
+- type: entity
+  parent: ClothingUniformSkirtBase
+  id: ClothingUniformJumpskirtChef_ck
+  name: Униформа настоящего шеф-повара
+  description: униформа настоящего шеф-повара
+  components:
+  - type: Sprite
+    sprite: _Ck/Clothing/Uniform/skirt/chef_ck.rsi
+  - type: Clothing
+    sprite: _Ck/Clothing/Uniform/skirt/chef_ck.rsi
+
+- type: entity
+  parent: ClothingUniformSkirtBase
+  id: ClothingUniformJumpskirtPovar_ck
+  name: Униформа повара
+  description: униформа повара
+  components:
+  - type: Sprite
+    sprite: _Ck/Clothing/Uniform/skirt/Povar_ck.rsi
+  - type: Clothing
+    sprite: _Ck/Clothing/Uniform/skirt/Povar_ck.rsi

@@ -26,6 +26,6 @@
       key_slots:
       - EncryptionKeyCommon
   - type: Sprite
-    sprite: _Ck/Entities/clothing/ears/ninja.rsi
+    sprite: _Ck/Clothing/Ears/ninja.rsi
   - type: Clothing
-    sprite: _Ck/Entities/clothing/ears/ninja.rsi
+    sprite: _Ck/Clothing/Ears/ninja.rsi

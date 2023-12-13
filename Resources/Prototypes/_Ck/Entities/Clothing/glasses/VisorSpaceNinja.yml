@@ -5,9 +5,9 @@
   description: An advanced visor protecting a ninja's eyes from flashing lights.
   components:
   - type: Sprite
-    sprite: _Ck/Entities/clothing/eyes/visor/blue.rsi
+    sprite: _Ck/Clothing/Eyes/visor/SpaceNinja/blue.rsi
   - type: Clothing
-    sprite: _Ck/Entities/clothing/eyes/visor/blue.rsi
+    sprite: _Ck/Clothing/Eyes/visor/SpaceNinja/blue.rsi
 
 - type: entity
   parent: ClothingEyesVisorNinja
@@ -16,9 +16,9 @@
   description: An advanced visor protecting a ninja's eyes from flashing lights.
   components:
   - type: Sprite
-    sprite: _Ck/Entities/clothing/eyes/visor/red.rsi
+    sprite: _Ck/Clothing/Eyes/visor/SpaceNinja/red.rsi
   - type: Clothing
-    sprite: _Ck/Entities/clothing/eyes/visor/red.rsi
+    sprite: _Ck/Clothing/Eyes/visor/SpaceNinja/red.rsi
 
 - type: entity
   parent: ClothingEyesVisorNinja
@@ -27,6 +27,6 @@
   description: An advanced visor protecting a ninja's eyes from flashing lights.
   components:
   - type: Sprite
-    sprite: _Ck/Entities/clothing/eyes/visor/violet.rsi
+    sprite: _Ck/Clothing/Eyes/visor/SpaceNinja/violet.rsi
   - type: Clothing
-    sprite: _Ck/Entities/clothing/eyes/visor/violet.rsi
+    sprite: _Ck/Clothing/Eyes/visor/SpaceNinja/violet.rsi

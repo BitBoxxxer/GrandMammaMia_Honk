@@ -21,6 +21,6 @@
     deniedPopup: christmas-tree-no-gift
     requiredHoliday: FestiveSeason
   - type: Sprite
-    sprite: _Ck/Entities/Objects/Decoration/Moroz_boxs_bag.rsi
+    sprite: _Ck/Clothing/Neck/Moroz_boxs_bag.rsi
   - type: Clothing
-    sprite: _Ck/Entities/Objects/Decoration/Moroz_boxs_bag.rsi
+    sprite: _Ck/Clothing/Neck/Moroz_boxs_bag.rsi

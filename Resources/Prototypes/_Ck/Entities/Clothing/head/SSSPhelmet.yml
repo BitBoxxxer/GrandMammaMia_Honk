@@ -5,20 +5,20 @@
   description: Шапка СССП
   components:
   - type: Sprite
-    sprite: _Ck/Entities/clothing/head/ushankaSSSP.rsi
+    sprite: _Ck/Clothing/Head/ushankaSSSP.rsi
   - type: Clothing
-    sprite: _Ck/Entities/clothing/head/ushankaSSSP.rsi
+    sprite: _Ck/Clothing/Head/ushankaSSSP.rsi
 
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadAnotherHelmetSSSP
-  name: другая каска СССП
+  name: Каска СССП
   description: Каска солдата СССП
   components:
   - type: Sprite
-    sprite: _Ck/Entities/clothing/head/SSSP_helmet.rsi
+    sprite: _Ck/Clothing/Head/SSSP_helmet.rsi
   - type: Clothing
-    sprite: _Ck/Entities/clothing/head/SSSP_helmet.rsi
+    sprite: _Ck/Clothing/Head/SSSP_helmet.rsi
   - type: Armor 
     modifiers:
       coefficients:
@@ -34,13 +34,13 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHelmetSSSPofficer
-  name: офицер СССП
-  description: Кепка офицера СССП
+  name: Кепка СССП
+  description: Слава СССП !
   components:
   - type: Sprite
-    sprite: _Ck/Entities/clothing/head/sovietcapbel.rsi
+    sprite: _Ck/Clothing/Head/sovietcapbel.rsi
   - type: Clothing
-    sprite: _Ck/Entities/clothing/head/sovietcapbel.rsi
+    sprite: _Ck/Clothing/Head/sovietcapbel.rsi
   - type: Armor 
     modifiers:
       coefficients:

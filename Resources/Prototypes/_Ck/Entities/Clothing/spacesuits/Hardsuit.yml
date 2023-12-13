@@ -3,13 +3,13 @@
 - type: entity
   parent: ClothingOuterHardsuitBase
   id: ClothingOuterHardsuitKTKPSecurity
-  name: скафандр СССП
+  name: Скафандр СССП
   description: A special suit that protects against hazardous, low pressure environments. Has an additional layer of armor.
   components:
   - type: Sprite
-    sprite: _Ck/Entities/clothing/spacesuits/hardsuit/KTKPsuit.rsi
+    sprite: _Ck/Clothing/HardSuit/KTKPsuit.rsi
   - type: Clothing
-    sprite: _Ck/Entities/clothing/spacesuits/hardsuit/KTKPsuit.rsi
+    sprite: _Ck/Clothing/HardSuit/KTKPsuit.rsi
   - type: PressureProtection
     highPressureMultiplier: 0.525
     lowPressureMultiplier: 10000
@@ -34,13 +34,13 @@
   parent: ClothingHeadHardsuitWithLightBase
   id: ClothingHeadHelmetHardsuitKTKPSecurity
   noSpawn: true
-  name: шлем СССП
+  name: Шлем скафандра СССП
   description: Armored hardsuit helmet for security needs.
   components:
   - type: Sprite
-    sprite: _Ck/Entities/clothing/spacesuits/hardsuit-helmet/KTKP.rsi
+    sprite: _Ck/Clothing/HardSuit/hardsuit-helmet/KTKP.rsi
   - type: Clothing
-    sprite: _Ck/Entities/clothing/spacesuits/hardsuit-helmet/KTKP.rsi
+    sprite: _Ck/Clothing/HardSuit/hardsuit-helmet/KTKP.rsi
   - type: PointLight
     color: "#ffeead"
   - type: PressureProtection
@@ -57,13 +57,13 @@
 - type: entity
   parent: ClothingOuterHardsuitBase
   id: ClothingOuterHardsuitKTOtop
-  name: бронированный скафандр СССП
+  name: Бронированный скафандр СССП
   description: A special suit that protects against hazardous, low pressure environments. Has an additional layer of armor.
   components:
   - type: Sprite
-    sprite: _Ck/Entities/clothing/spacesuits/hardsuit/KTKPsuitTOP.rsi
+    sprite: _Ck/Clothing/HardSuit/KTKPsuitTOP.rsi
   - type: Clothing
-    sprite: _Ck/Entities/clothing/spacesuits/hardsuit/KTKPsuitTOP.rsi
+    sprite: _Ck/Clothing/HardSuit/KTKPsuitTOP.rsi
   - type: PressureProtection
     highPressureMultiplier: 0.525
     lowPressureMultiplier: 10000
@@ -88,13 +88,13 @@
   parent: ClothingHeadHardsuitWithLightBase
   id: ClothingHeadHelmetHardsuitKTOtop
   noSpawn: true
-  name: бронированный шлем СССП
+  name: Бронированный шлем скафандра СССП
   description: Armored hardsuit helmet for security needs.
   components:
   - type: Sprite
-    sprite: _Ck/Entities/clothing/spacesuits/hardsuit-helmet/KTKPtop.rsi
+    sprite: _Ck/Clothing/HardSuit/hardsuit-helmet/KTKPtop.rsi
   - type: Clothing
-    sprite: _Ck/Entities/clothing/spacesuits/hardsuit-helmet/KTKPtop.rsi
+    sprite: _Ck/Clothing/HardSuit/hardsuit-helmet/KTKPtop.rsi
   - type: PointLight
     color: "#ffeead"
   - type: PressureProtection
