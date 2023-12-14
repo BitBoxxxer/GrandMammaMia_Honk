@@ -5,9 +5,9 @@
   description: 
   components:
   - type: Sprite
-    sprite: _Ck/Clothing/Gloves/SSSP_gloves.rsi
+    sprite: _Ck/Entities/clothing/gloves/SSSP_gloves.rsi
   - type: Clothing
-    sprite: _Ck/Clothing/Gloves/SSSP_gloves.rsi
+    sprite: _Ck/Entities/clothing/gloves/SSSP_gloves.rsi
   - type: GloveHeatResistance
     heatResistance: 1400
   - type: Insulated
@@ -25,9 +25,9 @@
   description: 
   components:
   - type: Sprite
-    sprite: _Ck/Clothing/Gloves/Moroz_gloves.rsi
+    sprite: _Ck/Entities/clothing/gloves/Moroz_gloves.rsi
   - type: Clothing
-    sprite: _Ck/Clothing/Gloves/Moroz_gloves.rsi
+    sprite: _Ck/Entities/clothing/gloves/Moroz_gloves.rsi
   - type: GloveHeatResistance
     heatResistance: 1200
   - type: Insulated

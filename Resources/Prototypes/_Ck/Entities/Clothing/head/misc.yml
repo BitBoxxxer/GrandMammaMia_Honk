@@ -5,9 +5,9 @@
   description: "It's a hat used by chefs to keep hair out of your food. Judging by the food in the mess, they don't work."
   components:
   - type: Sprite
-    sprite: _Ck/Clothing/Head/chefhat_ck.rsi
+    sprite: _Ck/Entities/clothing/head/chefhat_ck.rsi
   - type: Clothing
-    sprite: _Ck/Clothing/Head/chefhat_ck.rsi
+    sprite: _Ck/Entities/clothing/head/chefhat_ck.rsi
   - type: Storage
     capacity: 15
   - type: UserInterface
@@ -30,9 +30,9 @@
   description: It's a hat used by chefs to keep hair out of your food. Judging by the food in the mess, they don't work.
   components:
   - type: Sprite
-    sprite: _Ck/Clothing/Head/povarhat_ck.rsi
+    sprite: _Ck/Entities/clothing/head/povarhat_ck.rsi
   - type: Clothing
-    sprite: _Ck/Clothing/Head/povarhat_ck.rsi
+    sprite: _Ck/Entities/clothing/head/povarhat_ck.rsi
   - type: Storage
     capacity: 10
   - type: UserInterface
@@ -55,9 +55,9 @@
   description:  "вас бросили все и вот у вас шапка..."
   components:
   - type: Sprite
-    sprite: _Ck/Clothing/Head/bum.rsi
+    sprite: _Ck/Entities/clothing/head/lox.rsi
   - type: Clothing
-    sprite: _Ck/Clothing/Head/bum.rsi
+    sprite: _Ck/Entities/clothing/head/lox.rsi
 
 # Шапка Деда Мороза
 
@@ -68,6 +68,6 @@
   description: Шапочка Деда Мороза, кажется сзади виднеется веревочка - застежка для бороды...
   components:
   - type: Sprite
-    sprite: _Ck/Clothing/Head/Moroz_hat.rsi
+    sprite: _Ck/Entities/clothing/head/Moroz_hat.rsi
   - type: Clothing
-    sprite: _Ck/Clothing/Head/Moroz_hat.rsi
+    sprite: _Ck/Entities/clothing/head/Moroz_hat.rsi
