@@ -5,9 +5,9 @@
   description: Туфельки шефа
   components:
   - type: Sprite
-    sprite: _Ck/Clothing/Shoes/chef_ck.rsi
+    sprite: _Ck/Entities/clothing/shoes/chef_ck.rsi
   - type: Clothing
-    sprite: _Ck/Clothing/Shoes/chef_ck.rsi
+    sprite: _Ck/Entities/clothing/shoes/chef_ck.rsi
 
 - type: entity
   parent: ClothingShoesBaseButcherable
@@ -16,9 +16,9 @@
   description: Грубо и не удобно!
   components:
   - type: Sprite
-    sprite: _Ck/Clothing/Shoes/lox.rsi
+    sprite: _Ck/Entities/clothing/shoes/lox.rsi
   - type: Clothing
-    sprite: _Ck/Clothing/Shoes/lox.rsi
+    sprite: _Ck/Entities/clothing/shoes/lox.rsi
 
 # Обувь Дед Мороза
 
@@ -29,8 +29,8 @@
   description: Современная теплая обувь, натуральные материалы, нескользящая подошва, утепленные на застежке Валенки.
   components:
   - type: Sprite
-    sprite: _Ck/Clothing/Shoes/Moroz_winterboots.rsi
+    sprite: _Ck/Entities/clothing/shoes/Moroz_winterboots.rsi
   - type: Clothing
-    sprite: _Ck/Clothing/Shoes/Moroz_winterboots.rsi
+    sprite: _Ck/Entities/clothing/shoes/Moroz_winterboots.rsi
   - type: TemperatureProtection
     coefficient: 0.1
