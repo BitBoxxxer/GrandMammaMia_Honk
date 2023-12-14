@@ -5,11 +5,9 @@
   description: An apron-jacket used by a high class chef.
   components:
   - type: Sprite
-    sprite: _Ck/Clothing/OuterClothing/chef_ck.rsi
+    sprite: _Ck/Entities/clothing/outerclothings/chef_ck.rsi
   - type: Clothing
-    sprite: _Ck/Clothing/OuterClothing/chef_ck.rsi
-
-# Это бомж ( Bum )
+    sprite: _Ck/Entities/clothing/outerclothings/chef_ck.rsi
 
 - type: entity
   parent: ClothingOuterStorageBase
@@ -18,9 +16,9 @@
   description: Истаксканая и грязная @$#%*!
   components:
   - type: Sprite
-    sprite: _Ck/Clothing/OuterClothing/bum.rsi
+    sprite: _Ck/Entities/clothing/outerclothings/lox.rsi
   - type: Clothing
-    sprite: _Ck/Clothing/OuterClothing/bum.rsi
+    sprite: _Ck/Entities/clothing/outerclothings/lox.rsi
 
 # Шуба Деда Мороза
 
@@ -31,9 +29,9 @@
   description: Яркая, мягкая на ощупь ткань. Напоминает беззаботное детство.
   components:
   - type: Sprite
-    sprite: _Ck/Clothing/OuterClothing/Moroz_coat.rsi
+    sprite: _Ck/Entities/clothing/outerclothings/Moroz_coat.rsi
   - type: Clothing
-    sprite: _Ck/Clothing/OuterClothing/Moroz_coat.rsi
+    sprite: _Ck/Entities/clothing/outerclothings/Moroz_coat.rsi
   - type: TemperatureProtection
     coefficient: 0.1
   - type: Item

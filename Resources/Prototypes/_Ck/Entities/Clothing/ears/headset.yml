@@ -9,23 +9,3 @@
     containers:
       key_slots:
       - EncryptionKey_GROUPS_7
-
-# SpaceNinja_Alt
-
-- type: entity
-  parent: ClothingHeadsetAlt
-  id: ClothingHeadsetAltNinjaBlue
-  name: Черно-голубые промышленные наушники ниндзя
-  description: An updated, modular spider intercom that fits over the head and takes encryption keys (there are 5 key slots.).
-  components:
-  - type: Headset
-  - type: EncryptionKeyHolder
-    keySlots: 5
-  - type: ContainerFill
-    containers:
-      key_slots:
-      - EncryptionKeyCommon
-  - type: Sprite
-    sprite: _Ck/Clothing/Ears/ninja.rsi
-  - type: Clothing
-    sprite: _Ck/Clothing/Ears/ninja.rsi
