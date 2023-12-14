@@ -1,0 +1,32 @@
+- type: entity
+  parent: ClothingEyesVisorNinja
+  id: ClothingEyesVisorNinjaBlue
+  name: ninja visor blue
+  description: An advanced visor protecting a ninja's eyes from flashing lights.
+  components:
+  - type: Sprite
+    sprite: _Ck/Clothing/Eyes/visor/SpaceNinja/blue.rsi
+  - type: Clothing
+    sprite: _Ck/Clothing/Eyes/visor/SpaceNinja/blue.rsi
+
+- type: entity
+  parent: ClothingEyesVisorNinja
+  id: ClothingEyesVisorNinjaRed
+  name: ninja visor red
+  description: An advanced visor protecting a ninja's eyes from flashing lights.
+  components:
+  - type: Sprite
+    sprite: _Ck/Clothing/Eyes/visor/SpaceNinja/red.rsi
+  - type: Clothing
+    sprite: _Ck/Clothing/Eyes/visor/SpaceNinja/red.rsi
+
+- type: entity
+  parent: ClothingEyesVisorNinja
+  id: ClothingEyesVisorNinjaViolet
+  name: ninja visor Violet
+  description: An advanced visor protecting a ninja's eyes from flashing lights.
+  components:
+  - type: Sprite
+    sprite: _Ck/Clothing/Eyes/visor/SpaceNinja/violet.rsi
+  - type: Clothing
+    sprite: _Ck/Clothing/Eyes/visor/SpaceNinja/violet.rsi
