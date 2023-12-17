@@ -65,3 +65,54 @@
       borderColor: "#6f1234"
     - type: Icon
       state: pda-magistrat
+
+- type: entity
+  parent: BasePDA
+  id: PDAChef_
+  name: КПК шеф-повара
+  description: готовь во славу кухни!
+  components:
+    - type: Sprite
+      sprite: _Ck/Objects/PDA_ID/pda.rsi
+      state: pda-Chef
+    - type: Pda
+      id: Chef_IDCard
+      state: pda-Chef
+    - type: PdaBorderColor
+      borderColor: "#6f1234"
+    - type: Icon
+      state: pda-Chef
+
+- type: entity
+  parent: BasePDA
+  id: PDASuChefck
+  name: КПК су-шефа
+  description: уже лучше.
+  components:
+    - type: Sprite
+      sprite: _Ck/Objects/PDA_ID/pda.rsi
+      state: pda-SuChefck
+    - type: Pda
+      id: SuChefckIDCard
+      state: pda-SuChefck
+    - type: PdaBorderColor
+      borderColor: "#6f1234"
+    - type: Icon
+      state: pda-SuChefck
+
+- type: entity
+  parent: BasePDA
+  id: PDAPovar
+  name: КПК повара
+  description: зачем повару КПК если он...
+  components:
+    - type: Sprite
+      sprite: _Ck/Objects/PDA_ID/pda.rsi
+      state: pda-Povar
+    - type: Pda
+      id: PovarIDCard
+      state: pda-Povar
+    - type: PdaBorderColor
+      borderColor: "#6f1234"
+    - type: Icon
+      state: pda-Povar

@@ -30,7 +30,7 @@
     head: ClothingHeadHatChef
     back: ClothingBackpackFilled
     shoes: ClothingShoesColorBlack
-    id: ChefPDA
+    id: PDASuChefck
     ears: ClothingHeadsetService
     outerClothing: ClothingOuterJacketChef
     pocket1: BookRecipiesALL
