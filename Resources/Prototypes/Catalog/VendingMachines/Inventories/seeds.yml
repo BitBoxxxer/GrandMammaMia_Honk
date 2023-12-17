@@ -1,4 +1,4 @@
-ц- type: vendingMachineInventory
+- type: vendingMachineInventory
   id: MegaSeedServitorInventory
   startingInventory:
     HorseradishSeeds: 3
