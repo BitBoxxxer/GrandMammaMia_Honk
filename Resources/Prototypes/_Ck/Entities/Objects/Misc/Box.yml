@@ -1,19 +1,31 @@
 - type: entity
   id: boxBase
-  parent: BriefcaseBrown
+  parent: BaseStorageItem
   abstract: true
   components:
   - type: Sprite
+  - type: EmitSoundOnLand
+    sound:
+      path: /Audio/_Ck/Ambience/Objects/drop_box.ogg
+  - type: Storage
+    maxTotalWeight: 20
+    maxItemSize: Normal
   - type: ItemCooldown
 
 - type: entity
   id: boxBaseMINI
-  parent: BoxBase
+  parent: BaseStorageItem
   abstract: true
   components:
   - type: Sprite
+  - type: EmitSoundOnLand
+    sound:
+      path: /Audio/_Ck/Ambience/Objects/drop_box.ogg
+  - type: Storage
+    maxTotalWeight: 8
+    maxItemSize: Small
   - type: ItemCooldown
-#BriefcaseBrown
+
 - type: entity
   id: boxForPrinter
   name: Набор для сборки принтера
