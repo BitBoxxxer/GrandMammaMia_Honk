@@ -24,7 +24,7 @@
     head: ClothingHeadHatPovar_ck
     back: ClothingBackpackFilled
     shoes: ClothingShoesColorBlack
-    id: PDAPovar
+    id: ChefPDA
     ears: ClothingHeadsetService
     outerClothing: ClothingOuterApronChef
     pocket1: BookRecipiesALL

@@ -42,7 +42,7 @@
     back: ClothingBackpackFilled
     mask: ClothingMaskItalianMoustache
     shoes: ClothingShoesChef_ck
-    id: PDAChef_
+    id: ChefPDA
     ears: ClothingHeadsetService
     outerClothing: ClothingOuterJacketChef_ck
     pocket1: EncryptionKeyCommand

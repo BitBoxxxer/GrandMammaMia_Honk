@@ -44,7 +44,7 @@
   components:
   - type: Sprite
     sprite: _Ck/Objects/PDA_ID/id.rsi
-    state: Magistr
+    state: gold
   - type: Access
     tags:
     - Service
@@ -56,50 +56,3 @@
     - CCSecurity
     - CCGeneral
     - CCOfficer
-
-- type: entity
-  name: ID шеф-повара
-  parent: IDCardStandard
-  id: Chef_IDCard
-  components:
-  - type: Sprite
-    sprite: _Ck/Objects/PDA_ID/id.rsi
-    state: Chef
-  - type: Access
-    tags:
-    - Service
-    - Maintenance
-    - Hydroponics
-    - Bar
-    - Kitchen
-    - Command
-
-- type: entity
-  name: ID су-шефа
-  parent: IDCardStandard
-  id: SuChefckIDCard
-  components:
-  - type: Sprite
-    sprite: _Ck/Objects/PDA_ID/id.rsi
-    state: SuChefck
-  - type: Access
-    tags:
-    - Service
-    - Maintenance
-    - Hydroponicsr
-    - Bar
-    - Kitchen
-
-- type: entity
-  name: ID повара
-  parent: IDCardStandard
-  id: PovarIDCard
-  components:
-  - type: Sprite
-    sprite: _Ck/Objects/PDA_ID/id.rsi
-    state: Povar
-  - type: Access
-    tags:
-    - Service
-    - Maintenance
-    - Kitchen
