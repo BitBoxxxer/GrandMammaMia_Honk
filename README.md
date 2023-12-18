@@ -6,7 +6,7 @@ Space Station 14 это ремейк SS13, который работает на 
 
 ## Ссылки
 
-[Наш Discord]()
+[Наш Discord](https://discord.gg/CbF8BNYMgf)
 [Наш Twitch]()
 [Наш Boosty](https://boosty.to/honk_g)
 
