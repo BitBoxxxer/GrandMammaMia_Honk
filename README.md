@@ -8,7 +8,7 @@ Space Station 14 это ремейк SS13, который работает на 
 
 [Наш Discord]()
 [Наш Twitch]()
-[Наш Патреон]()
+[Наш Boosty](https://boosty.to/honk_g)
 
 ## Документация
 
