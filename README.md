@@ -2,23 +2,17 @@
 
 Space Station 14 это ремейк SS13, который работает на собственном движке [Robust Toolbox](https://github.com/space-wizards/RobustToolbox), написанном на C#.
 
-Это репозиторий для сервер backmen, форк от русскоязычного сервера по Space Station 14 (corvax).
+Это репозиторий для сервера Honk Grandpa, форк от русскоязычного сервера по Space Station 14 (backmen).
 
 ## Ссылки
 
-[Наш Discord](https://backmen.ru/discord) | [Наша Вики](https://wiki.backmen.ru) | [Steam](https://store.steampowered.com/app/1255460/Space_Station_14/) | [Клиент без Steam](https://spacestation14.io/about/nightlies/) | [Основной репозиторий](https://github.com/space-wizards/space-station-14) | [Репозиторий corvax](https://github.com/space-syndicate/space-station-14)
+[Наш Discord](https://discord.gg/CbF8BNYMgf)
+[Наш Twitch]()
+[Наш Boosty](https://boosty.to/honk_g)
 
 ## Документация
 
 На официальном сайте с [документацией](https://docs.spacestation14.io/) имеется вся необходимая информация о контенте SS14, движке, дизайне игры и многом другом. Также имеется много информации для начинающих разработчиков.
-
-## Сборка
-
-1. Склонируйте этот репозиторий локально
-2. Запустите `RUN_THIS.py` для инициализации подмодулей и скачивания движка.
-3. Скомпилируйте проект.
-
-[Более подробная инструкция по запуску проекта.](https://docs.spacestation14.com/en/general-development/setup.html)
 
 ## Лицензия
 

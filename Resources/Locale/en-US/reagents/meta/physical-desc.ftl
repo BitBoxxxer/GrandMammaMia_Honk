@@ -91,3 +91,5 @@ reagent-physical-desc-exhilarating = exhilarating
 reagent-physical-desc-vibrant = vibrant
 reagent-physical-desc-fluffy = fluffy
 reagent-physical-desc-reflective = reflective
+reagent-physical-desc-holy = holy
+reagent-physical-desc-ethereal = ethereal

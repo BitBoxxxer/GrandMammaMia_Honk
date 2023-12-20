@@ -33,6 +33,15 @@
     },
     {
       "name": "pda-magistrat"
+    },
+    {
+      "name": "pda-Chef"
+    },
+    {
+      "name": "pda-SuChefck"
+    },
+    {
+      "name": "pda-Povar"
     }
   ]
 }

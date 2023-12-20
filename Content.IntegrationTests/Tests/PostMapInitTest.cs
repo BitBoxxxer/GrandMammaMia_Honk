@@ -69,12 +69,16 @@ namespace Content.IntegrationTests.Tests
             "Gemini",
             "MeteorArena",
             "Atlas",
-            //backmen
+            //start-backmen
             "CentCommv2",
             "CentCommv3",
             "ShwrAdventurer",
             "ShwrBig",
-            "shwrDust"
+            "shwrDust",
+            "Tortuga",
+            "TheHive",
+            //end-backmen
+            "Reach"
         };
 
         /// <summary>
