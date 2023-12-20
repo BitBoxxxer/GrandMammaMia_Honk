@@ -1,4 +1,51 @@
 - type: microwaveMealRecipe
+  id: RecipeCroutonsEclairsChocolate
+  name: Шоколадный эклер
+  result: FoodBakedEclairsChocolate
+  time: 15
+  solids:
+    FoodSnackChocolateBar: 1
+    FoodDoughSlice: 1
+
+- type: microwaveMealRecipe
+  id: RecipeCroutonsWhiteChocolate
+  name: Белый шоколад
+  result: FoodBakedWhiteChocolate
+  time: 15
+  solids:
+    FoodSnackChocolateBar: 1
+  reagents:
+    Cream: 100
+
+- type: microwaveMealRecipe
+  id: RecipeCroutonsMilkChocolate
+  name: Молочный шоколад
+  result: FoodBakedMilkChocolate
+  time: 15
+  solids:
+    FoodSnackChocolateBar: 1
+  reagents:
+    Cream: 10
+
+- type: microwaveMealRecipe
+  id: RecipeCroutonsIce-creamChocolate
+  name: Шоколадное мороженное
+  result: FoodBakedIce-creamChocolate
+  time: 15
+  reagents:
+    IceCream: 50
+
+- type: microwaveMealRecipe
+  id: RecipeIce-cream
+  name: Ванильное мороженное
+  result: FoodBakedIce-cream
+  time: 15
+  solids:
+    FoodSnackChocolateBar: 1
+  reagents:
+    IceCream: 50
+
+- type: microwaveMealRecipe
   id: RecipeCroutonsHorseradish
   name: Кириешки с хреном
   result: FoodBakedCroutonsHorseradish

@@ -1,4 +1,47 @@
 - type: reagent
+  id: Soda
+  name: сода пищевая
+  group: Foods
+  desc: обычная сметанка
+  physicalDesc: reagent-physical-desc-gloopy
+  flavor: vitamin
+  color: white
+  recognizable: true
+
+- type: entity
+  parent: DrinkBottleBaseFull
+  id: DrinkSodaBottleFull
+  name: пачка пищевой соды
+  description: раз в 5 лет все мы ходим за ней в магазин
+  - type: SolutionContainerManager
+    solutions:
+      drink:
+        reagents: 
+        - ReagentId: Soda
+          Quantity: 100
+  - type: Sprite
+    sprite: _Ck/Objects/Food/dop.rsi
+    layers:
+    - state: soda
+
+- type: entity
+  parent: DrinkBottleBaseFull
+  id: DrinkCocoaPowderBottleFull
+  name: пачка какао порошка
+  description: 
+  components:
+  - type: SolutionContainerManager
+    solutions:
+      drink:
+        reagents:
+        - ReagentId: CocoaPowder
+          Quantity: 100
+  - type: Sprite
+    sprite: _Ck/Objects/Food/dop.rsi
+    layers:
+    - state: cocoaPowder
+
+- type: reagent
   id: Smetana
   name: сметана
   group: Foods

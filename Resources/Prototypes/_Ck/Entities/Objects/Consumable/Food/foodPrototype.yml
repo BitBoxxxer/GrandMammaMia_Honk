@@ -513,3 +513,70 @@
   - type: FlavorProfile
     flavors:
       - spicy
+
+\
+
+- type: entity
+  name: Ванильное мороженное
+  parent: FoodBakedMediumBase
+  id: FoodBakedIce-cream
+  description: ванильное.
+  components:
+  - type: Sprite
+    state: iceCream
+  - type: FlavorProfile
+    flavors:
+      - magical
+      - funny
+
+- type: entity
+  name: Шоколадное мороженное
+  parent: FoodBakedMediumBase
+  id: FoodBakedIce-creamChocolate
+  description: шоколадное.
+  components:
+  - type: Sprite
+    state: iceCreamChocolate
+  - type: FlavorProfile
+    flavors:
+      - funny
+      - chocolate
+
+- type: entity
+  name: Молочный шоколад
+  parent: FoodBakedMediumBase
+  id: FoodBakedMilkChocolate
+  description: шоколадное.
+  components:
+  - type: Sprite
+    state: milkChocolate
+  - type: FlavorProfile
+    flavors:
+      - magical
+      - funny
+
+- type: entity
+  name: Белый шоколад
+  parent: FoodBakedMediumBase
+  id: FoodBakedWhiteChocolate
+  description: шоколадное.
+  components:
+  - type: Sprite
+    state: whiteChocolate
+  - type: FlavorProfile
+    flavors:
+      - funny
+      - chocolate
+
+- type: entity
+  name: Шоколадный эклер
+  parent: FoodBakedMediumBase
+  id: FoodBakedEclairsChocolate
+  description: шоколадное.
+  components:
+  - type: Sprite
+    state: eclairsChocolate
+  - type: FlavorProfile
+    flavors:
+      - magical
+      - funny
