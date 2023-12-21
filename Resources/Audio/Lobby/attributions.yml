@@ -109,3 +109,41 @@
   copyright: "David Bowie"
   source: "https://audiohunter.ru/?song=Space+Station+13"
   
+
+
+
+
+ - files: ["Toby_Fox_-_Spider_Dance_64962807.ogg"]
+  license: "CC-BY-NC-SA-3.0"
+  copyright: "Toby Fox"
+  source: "https://rur.hitmotop.com/artist/458601/start/48"
+
+ - files: ["Toby_Fox_-_Waterfall_64962775.ogg"]
+  license: "CC-BY-NC-SA-3.0"
+  copyright: "Toby Fox"
+  source: "https://www.youtube.com/watch?v=iYYRH4apXDo&ab_channel=DavidBowie"
+
+ - files: ["Toby_Fox_-_Shop_64962765.ogg"]
+  license: "CC-BY-NC-SA-3.0"
+  copyright: "Toby Fox"
+  source: "https://www.youtube.com/watch?v=iYYRH4apXDo&ab_channel=DavidBowie"
+
+ - files: ["Toby_Fox_-_sans_64962755.ogg"]
+  license: "CC-BY-NC-SA-3.0"
+  copyright: "Toby Fox"
+  source: "https://www.youtube.com/watch?v=iYYRH4apXDo&ab_channel=DavidBowie"
+
+ - files: ["Toby_Fox_-_Metal_Crusher_64962797.ogg"]
+  license: "CC-BY-NC-SA-3.0"
+  copyright: "Toby Fox"
+  source: "https://www.youtube.com/watch?v=iYYRH4apXDo&ab_channel=DavidBowie"
+
+ - files: ["Toby_Fox_-_Heartache_64962754.ogg"]
+  license: "CC-BY-NC-SA-3.0"
+  copyright: "Toby Fox"
+  source: "https://www.youtube.com/watch?v=iYYRH4apXDo&ab_channel=DavidBowie"
+  
+ - files: ["ClownsHymn.ogg"]
+  license: "CC-BY-NC-SA-3.0"
+  copyright: "Hugo"
+  source: "https://www.youtube.com/watch?v=9whQIbNmu9s"
