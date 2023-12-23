@@ -1,6 +1,4 @@
 - type: reagent
-<<<<<<< Updated upstream
-=======
   id: Soda
   name: сода пищевая
   group: Foods
@@ -15,6 +13,7 @@
   id: DrinkSodaBottleFull
   name: пачка пищевой соды
   description: раз в 5 лет все мы ходим за ней в магазин
+  components:
   - type: SolutionContainerManager
     solutions:
       drink:
@@ -44,7 +43,6 @@
     - state: cocoaPowder
 
 - type: reagent
->>>>>>> Stashed changes
   id: Smetana
   name: сметана
   group: Foods

@@ -39,8 +39,6 @@
     },
     {
       "name": "sausages"
-<<<<<<< Updated upstream:Resources/Textures/_Ck/Objects/Food/dop.rsi/meta.json
-=======
     },
     {
       "name": "cocoaPowder"
@@ -53,7 +51,7 @@
     },
     {
       "name": "milkChocolate"
->>>>>>> Stashed changes:Resources/Textures/_Ck/Objects/Consumable/Food/ingredients.rsi/meta.json
+
     }
   ]
 } 
