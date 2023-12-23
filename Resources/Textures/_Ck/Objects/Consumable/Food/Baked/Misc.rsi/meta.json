@@ -27,8 +27,6 @@
     },
     {
       "name": "MoscowPies"
-<<<<<<< Updated upstream:Resources/Textures/_Ck/Objects/Food/ALL.rsi/meta.json
-=======
     },
     {
       "name": "eclairsChocolate"
@@ -38,7 +36,6 @@
     },
     {
       "name": "iceCreamChocolate"
->>>>>>> Stashed changes:Resources/Textures/_Ck/Objects/Consumable/Food/Baked/Misc.rsi/meta.json
     }
   ]
 }
