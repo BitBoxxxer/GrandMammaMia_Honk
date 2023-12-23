@@ -1,0 +1,81 @@
+- type: entity
+  parent: FoodInjectableBase
+  id: FoodIngredientsBase
+  abstract: true
+  components:
+  - type: Food
+  - type: Sprite
+    sprite: _Ck/Objects/Consumable/Food/ingredients.rsi
+  - type: SolutionContainerManager
+    solutions:
+      food:
+        maxVol: 6
+        reagents:
+        - ReagentId: Nutriment
+          Quantity: 5
+        - ReagentId: Vitamin
+          Quantity: 5
+  - type: Item
+    size: Tiny
+
+#ингридиент - рецепт - наполняемое им
+
+- type: entity
+  name: сосиска
+  parent: FoodIngredientsBase
+  id: FoodSausages
+  description: Молочная сосиска, по баварски!
+  components:
+  - type: Sprite
+    state: sausages
+  - type: FlavorProfile
+    flavors:
+      - bacon
+
+- type: entity
+  name: лаваш
+  parent: FoodIngredientsBase
+  id: FoodDoughLawa
+  description: Лаваш барма, сегодня будет шаурма
+  components:
+  - type: Sprite
+    state: lavash
+  - type: FlavorProfile
+    flavors:
+      - magical
+
+- type: entity
+  name: фарш
+  parent: FoodIngredientsBase
+  id: FoodMincedMeat
+  description: Фарш, человеческий... наверное!
+  components:
+  - type: Sprite
+    state: mincemeat
+
+- type: entity
+  name: Молочный шоколад
+  parent: FoodIngredientsBase
+  id: FoodBakedMilkChocolate
+  description: шоколадное.
+  components:
+  - type: Sprite
+    state: milkChocolate
+  - type: FlavorProfile
+    flavors:
+      - magical
+      - funny
+      - chocolate
+
+- type: entity
+  name: Белый шоколад
+  parent: FoodIngredientsBase
+  id: FoodBakedWhiteChocolate
+  description: шоколадное.
+  components:
+  - type: Sprite
+    state: whiteChocolate
+  - type: FlavorProfile
+    flavors:
+      - funny
+      - chocolate

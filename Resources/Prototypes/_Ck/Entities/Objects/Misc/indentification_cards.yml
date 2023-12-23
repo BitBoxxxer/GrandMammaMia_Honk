@@ -1,0 +1,105 @@
+- type: entity
+  name: ID солдата СССП
+  parent: IDCardStandard
+  id: SSSPsoldierIDCard
+  components:
+  - type: Sprite
+    sprite: _Ck/Objects/Misc/id_cards.rsi
+    state: sssp
+  - type: Access
+    tags:
+    - SSSPGeneral
+
+- type: entity
+  name: ID штурмовика СССП
+  parent: IDCardStandard
+  id: SSSPstormtrooperIDCard
+  components:
+  - type: Sprite
+    sprite: _Ck/Objects/Misc/id_cards.rsi
+    state: sssp
+  - type: Access
+    tags:
+    - SSSPGeneral
+    - SSSParmory
+
+- type: entity
+  name: ID командира СССП
+  parent: IDCardStandard
+  id: SSSPcommanderIDCard
+  components:
+  - type: Sprite
+    sprite: _Ck/Objects/Misc/id_cards.rsi
+    state: sssp
+  - type: Access
+    tags:
+    - SSSPGeneral
+    - SSSParmory
+    - SSSPcommander
+
+- type: entity
+  name: ID магистрата
+  parent: IDCardStandard
+  id: MagistrIDCard
+  components:
+  - type: Sprite
+    sprite: _Ck/Objects/Misc/id_cards.rsi
+    state: Magistr
+  - type: Access
+    tags:
+    - Service
+    - Brig
+    - Maintenance
+    - Command
+    - External
+    - CCCargo
+    - CCSecurity
+    - CCGeneral
+    - CCOfficer
+
+- type: entity
+  name: ID шеф-повара
+  parent: IDCardStandard
+  id: Chef_IDCard
+  components:
+  - type: Sprite
+    sprite: _Ck/Objects/Misc/id_cards.rsi
+    state: Chef
+  - type: Access
+    tags:
+    - Service
+    - Maintenance
+    - Hydroponics
+    - Bar
+    - Kitchen
+    - Command
+
+- type: entity
+  name: ID су-шефа
+  parent: IDCardStandard
+  id: SuChefckIDCard
+  components:
+  - type: Sprite
+    sprite: _Ck/Objects/Misc/id_cards.rsi
+    state: SuChefck
+  - type: Access
+    tags:
+    - Service
+    - Maintenance
+    - Hydroponicsr
+    - Bar
+    - Kitchen
+
+- type: entity
+  name: ID повара
+  parent: IDCardStandard
+  id: PovarIDCard
+  components:
+  - type: Sprite
+    sprite: _Ck/Objects/Misc/id_cards.rsi
+    state: Povar
+  - type: Access
+    tags:
+    - Service
+    - Maintenance
+    - Kitchen

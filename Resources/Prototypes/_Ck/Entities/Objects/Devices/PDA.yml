@@ -1,0 +1,118 @@
+- type: entity
+  parent: BasePDA
+  id: SSSPPDAsol
+  name: КПК солдата СССП
+  description: один на всех!
+  components:
+    - type: Sprite
+      sprite: _Ck/Objects/Devices/pda.rsi
+      state: pda-sssp
+    - type: Pda
+      id: SSSPsoldierIDCard
+      state: pda-sssp
+    - type: PdaBorderColor
+      borderColor: "#6f6192"
+    - type: Icon
+      state: pda-sssp
+
+- type: entity
+  parent: BasePDA
+  id: SSSPPDAsturm
+  name: КПК штурмовика СССП
+  description: один на всех!
+  components:
+    - type: Sprite
+      sprite: _Ck/Objects/Devices/pda.rsi
+      state: pda-sssp
+    - type: Pda
+      id: SSSPstormtrooperIDCard
+      state: pda-sssp
+    - type: PdaBorderColor
+      borderColor: "#6f6192"
+    - type: Icon
+      state: pda-sssp
+
+- type: entity
+  parent: BasePDA
+  id: SSSPPDAcom
+  name: КПК офицера СССП
+  description: один на всех!
+  components:
+    - type: Sprite
+      sprite: _Ck/Objects/Devices/pda.rsi
+      state: pda-sssp
+    - type: Pda
+      id: SSSPcommanderIDCard
+      state: pda-sssp
+    - type: PdaBorderColor
+      borderColor: "#6f6192"
+    - type: Icon
+      state: pda-sssp
+
+- type: entity
+  parent: BasePDA
+  id: PDAJudge
+  name: КПК магистрата
+  description: КЗ и СРП в одном флаконе!
+  components:
+    - type: Sprite
+      sprite: _Ck/Objects/Devices/pda.rsi
+      state: pda-magistrat
+    - type: Pda
+      id: MagistrIDCard
+      state: pda-magistrat
+    - type: PdaBorderColor
+      borderColor: "#6f1234"
+    - type: Icon
+      state: pda-magistrat
+
+- type: entity
+  parent: BasePDA
+  id: PDAChef_
+  name: КПК шеф-повара
+  description: готовь во славу кухни!
+  components:
+    - type: Sprite
+      sprite: _Ck/Objects/Devices/pda.rsi
+      state: pda-Chef
+    - type: Pda
+      id: Chef_IDCard
+      state: pda-Chef
+    - type: PdaBorderColor
+      borderColor: "#6f1234"
+    - type: Icon
+      state: pda-Chef
+
+- type: entity
+  parent: BasePDA
+  id: PDASuChefck
+  name: КПК су-шефа
+  description: уже лучше.
+  components:
+    - type: Sprite
+      sprite: _Ck/Objects/Devices/pda.rsi
+      state: pda-SuChefck
+    - type: Pda
+      id: SuChefckIDCard
+      state: pda-SuChefck
+    - type: PdaBorderColor
+      borderColor: "#6f1234"
+    - type: Icon
+      state: pda-SuChefck
+
+- type: entity
+  parent: BasePDA
+  id: PDAPovar
+  name: КПК повара
+  description: зачем повару КПК если он...
+  components:
+    - type: Sprite
+      sprite: _Ck/Objects/Devices/pda.rsi
+      state: pda-Povar
+    - type: Pda
+      id: PovarIDCard
+      state: pda-Povar
+    - type: PdaBorderColor
+      borderColor: "#6f1234"
+    - type: Icon
+      state: pda-Povar

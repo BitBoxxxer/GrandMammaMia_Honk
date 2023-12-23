@@ -1,0 +1,52 @@
+- type: entity
+  parent: ClothingOuterStorageBase
+  id: ClothingOuterJacketChef_ck
+  name: Настоящий жакет шеф-повара
+  description: An apron-jacket used by a high class chef.
+  components:
+  - type: Sprite
+    sprite: _Ck/Clothing/outerclothings/chef_ck.rsi
+  - type: Clothing
+    sprite: _Ck/Clothing/outerclothings/chef_ck.rsi
+
+- type: entity
+  parent: ClothingOuterStorageBase
+  id: ClothingOuterLox
+  name: Накидка бомжа
+  description: Истаксканая и грязная @$#%*!
+  components:
+  - type: Sprite
+    sprite: _Ck/Clothing/outerclothings/lox.rsi
+  - type: Clothing
+    sprite: _Ck/Clothing/outerclothings/lox.rsi
+
+# Шуба Деда Мороза
+
+- type: entity
+  parent: ClothingOuterStorageBase
+  id: ClothingOuterWinterCoatMoroz
+  name: Шуба Деда Мороза
+  description: Яркая, мягкая на ощупь ткань. Напоминает беззаботное детство.
+  components:
+  - type: Sprite
+    sprite: _Ck/Clothing/outerclothings/Moroz_coat.rsi
+  - type: Clothing
+    sprite: _Ck/Clothing/outerclothings/Moroz_coat.rsi
+  - type: TemperatureProtection
+    coefficient: 0.1
+  - type: Item
+    size: 10
+  - type: Armor
+    modifiers:
+      coefficients:
+        Slash: 0.95
+        Heat: 0.90
+  - type: Food
+    requiresSpecialDigestion: true
+  - type: SolutionContainerManager
+    solutions:
+      food:
+        maxVol: 30
+        reagents:
+        - ReagentId: Fiber
+          Quantity: 30

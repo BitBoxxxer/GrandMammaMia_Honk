@@ -1,0 +1,21 @@
+- type: entity
+  name: шоколадный донк-покет
+  parent: FoodDonkpocketHonk
+  id: FoodDonkpocketHonkChoco
+  description: хонк-хонк! хонк хонк хонк... хонк! хонк хонк хонк?
+  components:
+  - type: Sprite
+    sprite: _Ck/Objects/Consumable/Food/Baked/donkpocket.rsi
+    state: choco
+  - type: FlavorProfile
+    flavors:
+      - funny
+      - cheap
+  - type: SolutionContainerManager
+    solutions:
+      food:
+        reagents:
+        - ReagentId: Nutriment
+          Quantity: 10
+        - ReagentId: Omnizine
+          Quantity: 2

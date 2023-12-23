@@ -1,0 +1,14 @@
+- type: entity
+  parent: ClothingEyesBase
+  id: ClothingEyesGlassesLox
+  name: очки бомжа
+  description: ФУУУУУ!!! ОНИ ГРЯЗНЫЕ!!!!!!
+  components:
+  - type: Sprite
+    sprite: _Ck/Clothing/eyes/glasses/lox.rsi
+  - type: Clothing
+    sprite: _Ck/Clothing/clothing/eyes/glasses/lox.rsi
+  - type: MeleeWeapon
+    damage:
+      types:
+        Blunt: 5

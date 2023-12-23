@@ -1,0 +1,13 @@
+- type: entity
+  parent: FoodBoxDonkpocket
+  id: FoodBoxDonkpocketChoco
+  name: коробка шоколадных донк-покетов
+  components:
+  - type: Sprite
+    state: choco-box
+  - type: Item
+    sprite: _Ck/Objects/Consumable/Food/Baked/donkpocket.rsi
+  - type: StorageFill
+    contents:
+    - id: FoodDonkpocketHonkChoco
+      amount: 6

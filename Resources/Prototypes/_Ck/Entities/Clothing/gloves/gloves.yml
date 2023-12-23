@@ -1,0 +1,37 @@
+- type: entity
+  parent: ClothingHandsBase
+  id: ClothingHandsGlovesSSSP
+  name: Перчатки солдата красной армии.
+  description: 
+  components:
+  - type: Sprite
+    sprite: _Ck/Clothing/gloves/SSSP_gloves.rsi
+  - type: Clothing
+    sprite: _Ck/Clothing/gloves/SSSP_gloves.rsi
+  - type: GloveHeatResistance
+    heatResistance: 1400
+  - type: Insulated
+  - type: Fiber
+    fiberMaterial: fibers-durathread
+    fiberColor: fibers-regal-blue
+  - type: FingerprintMask
+
+# Перчатки Деда Мороза
+
+- type: entity
+  parent: ClothingHandsBase
+  id: ClothingHandsGlovesSSSPMoroz
+  name: Рукавицы Деда Мороза. 
+  description: 
+  components:
+  - type: Sprite
+    sprite: _Ck/Clothing/gloves/Moroz_gloves.rsi
+  - type: Clothing
+    sprite: _Ck/Clothing/gloves/Moroz_gloves.rsi
+  - type: GloveHeatResistance
+    heatResistance: 1200
+  - type: Insulated
+  - type: Fiber
+    fiberMaterial: fibers-durathread
+    fiberColor: fibers-regal-blue
+  - type: FingerprintMask

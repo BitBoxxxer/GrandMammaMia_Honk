@@ -1,0 +1,150 @@
+- type: entity
+  name: Манка
+  parent: FoodBowlBase
+  id: FoodBakedSemolina
+  description: Манная Каша.
+  components:
+  - type: FlavorProfile
+    flavors:
+      - sweet
+      - magical
+      - funny
+  - type: Sprite
+    sprite: _Ck/Objects/Consumable/Food/Baked/Misc.rsi
+    layers:
+    - state: bowl
+    - state: semolina
+  - type: SolutionContainerManager
+    solutions:
+      food:
+        maxvol: 15
+        reagents:
+        - ReagentId: Nutriment
+          Quantity: 16
+        - ReagentId: Vitamin
+          Quantity: 6
+        - ReagentId: DoctorsDelight
+          Quantity: 10
+
+- type: entity
+  name: Кириешки
+  parent: FoodBakedMediumBase
+  id: FoodBakedCroutons
+  description: кириешки.
+  components:
+  - type: Sprite
+    sprite: _Ck/Objects/Consumable/Food/Baked/Misc.rsi
+    state: croutons
+  - type: FlavorProfile
+    flavors:
+      - spicy
+
+- type: entity
+  name: Сосиска в тесте
+  parent: FoodBakedMediumBase
+  id: FoodSausageDough
+  description: сосиска в тесте, и ничего лишнего
+  components:
+  - type: Sprite
+    sprite: _Ck/Objects/Consumable/Food/Baked/Misc.rsi
+    state: sausagesDough
+  - type: FlavorProfile
+    flavors:
+      - magical
+      - bacon
+
+- type: entity
+  name: котлеты
+  parent: FoodBakedMediumBase
+  id: FoodCutlet
+  description: котлеты, из мяса.
+  components:
+  - type: Sprite
+    sprite: _Ck/Objects/Consumable/Food/Baked/Misc.rsi
+    state: cutlet
+  - type: FlavorProfile
+    flavors:
+      - meaty
+
+- type: entity
+  name: котлеты по киевски
+  parent: FoodBakedMediumBase
+  id: FoodCutletkiev
+  description: котлеты, из мяса и масла, положенные на листик салата, очень хороший перекус.
+  components:
+  - type: Sprite
+    sprite: _Ck/Objects/Consumable/Food/Baked/Misc.rsi
+    state: kievcutlet
+  - type: FlavorProfile
+    flavors:
+      - meaty
+
+- type: entity
+  name: пончики по Московски
+  parent: FoodBakedMediumBase
+  id: FoodMoscowPies
+  description: Кухня Великого города, родина мать приготовила!
+  components:
+  - type: Sprite
+    sprite: _Ck/Objects/Consumable/Food/Baked/Misc.rsi
+    state: MoscowPies
+  - type: FlavorProfile
+    flavors:
+      - sweet
+      - magical
+      - funny
+
+- type: entity
+  name: Кириешки с хреном
+  parent: FoodBakedMediumBase
+  id: FoodBakedCroutonsHorseradish
+  description: кириешки с хреном, полезно.
+  components:
+  - type: Sprite
+    sprite: _Ck/Objects/Consumable/Food/Baked/Misc.rsi
+    state: croutons
+  - type: FlavorProfile
+    flavors:
+      - spicy
+
+- type: entity
+  name: Ванильное мороженное
+  parent: FoodBakedMediumBase
+  id: FoodBakedIce-cream
+  description: ванильное.
+  components:
+  - type: Sprite
+    sprite: _Ck/Objects/Consumable/Food/Baked/Misc.rsi
+    state: iceCream
+  - type: FlavorProfile
+    flavors:
+      - magical
+      - funny
+
+- type: entity
+  name: Шоколадное мороженное
+  parent: FoodBakedMediumBase
+  id: FoodBakedIce-creamChocolate
+  description: шоколадное.
+  components:
+  - type: Sprite
+    sprite: _Ck/Objects/Consumable/Food/Baked/Misc.rsi
+    state: iceCreamChocolate
+  - type: FlavorProfile
+    flavors:
+      - funny
+      - chocolate
+
+- type: entity
+  name: Шоколадный эклер
+  parent: FoodBakedMediumBase
+  id: FoodBakedEclairsChocolate
+  description: шоколадное.
+  components:
+  - type: Sprite
+    sprite: _Ck/Objects/Consumable/Food/Baked/Misc.rsi
+    state: eclairsChocolate
+  - type: FlavorProfile
+    flavors:
+      - magical
+      - funny
