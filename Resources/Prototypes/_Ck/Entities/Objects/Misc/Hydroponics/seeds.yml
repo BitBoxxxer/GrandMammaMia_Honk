@@ -3,7 +3,7 @@
   name: хрен
   noun: seeds-noun-seeds
   displayName: хрен
-  plantRsi: _Ck/Objects/Misc/Hydroponics/horseradish.rsi
+  plantRsi: _Ck/Objects/Specific/Hydroponics/horseradish.rsi
   packetPrototype: HorseradishSeeds
   productPrototypes:
     - HorseradishBushel

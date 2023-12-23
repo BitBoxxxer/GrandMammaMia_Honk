@@ -6,7 +6,7 @@
     - type: Seed
       seedId: horseradish
     - type: Sprite
-      sprite: _Ck/Objects/Misc/Hydroponics/horseradish.rsi
+      sprite: _Ck/Objects/Specific/Hydroponics/horseradish.rsi
 
 - type: entity
   parent: SeedBase

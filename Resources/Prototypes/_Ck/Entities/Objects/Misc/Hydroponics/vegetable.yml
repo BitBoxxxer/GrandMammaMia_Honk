@@ -62,7 +62,7 @@
   description: Полезно, а это главное.
   components:
   - type: Sprite
-    sprite: _Ck/Objects/Misc/Hydroponics/horseradish.rsi
+    sprite: _Ck/Objects/Specific/Hydroponics/horseradish.rsi
     state: produce
   - type: FlavorProfile
     flavors:

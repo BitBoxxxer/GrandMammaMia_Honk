@@ -1,0 +1,21 @@
+- type: entity
+  parent: ClothingOuterStorageBase
+  id: ClothingOuterJacketChef_ck
+  name: Настоящий жакет шеф-повара
+  description: неотъемлимая часть формы шеф-повара
+  components:
+  - type: Sprite
+    sprite: _Ck/Clothing/outerclothings/chef_ck.rsi
+  - type: Clothing
+    sprite: _Ck/Clothing/outerclothings/chef_ck.rsi
+
+- type: entity
+  parent: ClothingOuterStorageBase
+  id: ClothingOuterApron
+  name: красный мини-фартук
+  description: часть формы персонала кафе
+  components:
+  - type: Sprite
+    sprite: _Ck/Clothing/outerclothings/apron.rsi
+  - type: Clothing
+    sprite: _Ck/Clothing/outerclothings/apron.rsi

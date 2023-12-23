@@ -1,16 +1,5 @@
 - type: entity
   parent: ClothingOuterStorageBase
-  id: ClothingOuterJacketChef_ck
-  name: Настоящий жакет шеф-повара
-  description: An apron-jacket used by a high class chef.
-  components:
-  - type: Sprite
-    sprite: _Ck/Clothing/outerclothings/chef_ck.rsi
-  - type: Clothing
-    sprite: _Ck/Clothing/outerclothings/chef_ck.rsi
-
-- type: entity
-  parent: ClothingOuterStorageBase
   id: ClothingOuterLox
   name: Накидка бомжа
   description: Истаксканая и грязная @$#%*!

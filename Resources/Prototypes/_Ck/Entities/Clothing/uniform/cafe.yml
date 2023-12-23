@@ -1,0 +1,43 @@
+- type: entity
+  parent: ClothingUniformSkirtBase
+  id: ClothingUniformJumpskirtChef_ck
+  name: униформа настоящего шеф-повара
+  description: униформа настоящего шеф-повара
+  components:
+  - type: Sprite
+    sprite: _Ck/Clothing/uniform/skirt/chef_ck.rsi
+  - type: Clothing
+    sprite: _Ck/Clothing/uniform/skirt/chef_ck.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitChef_ck
+  name: униформа настоящего шеф-повара
+  description: униформа настоящего шеф-повара
+  components:
+  - type: Sprite
+    sprite: _Ck/Clothing/uniform/jump/chef_ck.rsi
+  - type: Clothing
+    sprite: _Ck/Clothing/uniform/jump/chef_ck.rsi
+
+- type: entity
+  parent: ClothingUniformSkirtBase
+  id: ClothingUniformJumpskirtPovar_ck
+  name: униформа повара
+  description: униформа повара
+  components:
+  - type: Sprite
+    sprite: _Ck/Clothing/uniform/skirt/Povar_ck.rsi
+  - type: Clothing
+    sprite: _Ck/Clothing/uniform/skirt/Povar_ck.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitPovar_ck
+  name: униформа повара
+  description: униформа повара
+  components:
+  - type: Sprite
+    sprite: _Ck/Clothing/uniform/jump/Povar_ck.rsi
+  - type: Clothing
+    sprite: _Ck/Clothing/uniform/jump/Povar_ck.rsi

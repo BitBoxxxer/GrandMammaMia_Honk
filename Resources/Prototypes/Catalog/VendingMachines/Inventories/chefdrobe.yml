@@ -7,11 +7,13 @@
     ClothingShoesChef_ck: 1 #_Ck
     ClothingOuterJacketChef_ck: 1 #_Ck
     ClothingHeadsetService: 5
+    ClothingHeadHatPovar_ck_red: 5
+    ClothingOuterApron: 5
     ClothingOuterApronChef: 3
     ClothingOuterWinterChef: 2
-    ClothingOuterJacketChef: 1
-    ClothingUniformJumpsuitPovar_ck: 1 #_Ck
-    ClothingMaskItalianMoustache: 1
+    ClothingOuterJacketChef: 3
+    ClothingUniformJumpsuitPovar_ck: 3 #_Ck
+    ClothingMaskItalianMoustache: 3
     ClothingUniformJumpskirtPovar_ck:  2 #_Ck
     ClothingHeadHatPovar_ck: 2 #_Ck
     ClothingShoesColorBlack: 2
