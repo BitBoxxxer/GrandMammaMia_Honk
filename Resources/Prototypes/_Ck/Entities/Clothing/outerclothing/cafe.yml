@@ -11,7 +11,7 @@
 
 - type: entity
   parent: ClothingOuterStorageBase
-  id: ClothingOuterApron
+  id: ClothingOuterApron_Povar
   name: красный мини-фартук
   description: часть формы персонала кафе
   components:

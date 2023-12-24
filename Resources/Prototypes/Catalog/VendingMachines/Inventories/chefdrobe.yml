@@ -7,8 +7,8 @@
     ClothingShoesChef_ck: 1 #_Ck
     ClothingOuterJacketChef_ck: 1 #_Ck
     ClothingHeadsetService: 5
-    ClothingHeadHatPovar_ck_red: 5
-    ClothingOuterApron: 5
+    ClothingHeadHatPovar_ck_red: 5 #_Ck
+    ClothingOuterApron_Povar: 5 #_Ck
     ClothingOuterApronChef: 3
     ClothingOuterWinterChef: 2
     ClothingOuterJacketChef: 3

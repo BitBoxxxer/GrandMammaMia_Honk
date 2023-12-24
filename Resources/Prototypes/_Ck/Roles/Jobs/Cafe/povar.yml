@@ -26,7 +26,7 @@
     shoes: ClothingShoesColorBlack
     id: PDAPovar
     ears: ClothingHeadsetService
-    outerClothing: ClothingOuterApron
+    outerClothing: ClothingOuterApron_Povar
     pocket1: BookRecipiesALL
   innerclothingskirt: ClothingUniformJumpskirtPovar_ck
   satchel: ClothingBackpackSatchelFilled
