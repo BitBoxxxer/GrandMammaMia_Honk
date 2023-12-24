@@ -34,6 +34,5 @@
     ears: ClothingHeadsetService
     outerClothing: ClothingOuterJacketChef
     pocket1: BookRecipiesALL
-  innerclothingskirt: ClothingUniformJumpskirtPovar_ck
   satchel: ClothingBackpackSatchelFilled
   duffelbag: ClothingBackpackDuffelFilled
