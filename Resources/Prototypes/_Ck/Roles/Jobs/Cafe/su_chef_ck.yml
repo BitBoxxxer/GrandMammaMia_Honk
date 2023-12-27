@@ -32,7 +32,7 @@
     shoes: ClothingShoesColorBlack
     id: PDASuChefck
     ears: ClothingHeadsetService
-    outerClothing: ClothingOuterJacketChef
+    outerClothing: ClothingOuterJacketSu_Chef_ck
     pocket1: BookRecipiesALL
   satchel: ClothingBackpackSatchelFilled
   duffelbag: ClothingBackpackDuffelFilled
