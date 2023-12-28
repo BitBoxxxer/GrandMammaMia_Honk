@@ -52,7 +52,7 @@
 - type: entity
   id: PrinterMachineCircuitboardCC
   parent: BaseMachineCircuitboard
-  name: плата станционного принтера
+  name: плата принтера ЦК
   description: печатает формы для заполнений
   components:
     - type: Sprite
@@ -69,7 +69,7 @@
 - type: entity
   id: PrinterMachineCircuitboard
   parent: BaseMachineCircuitboard
-  name: плата принтера ЦК
+  name: плата станционного принтера
   description: печатает формы для заполнений
   components:
     - type: Sprite

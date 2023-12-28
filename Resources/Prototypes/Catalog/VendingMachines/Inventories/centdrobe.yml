@@ -1,6 +1,9 @@
 - type: vendingMachineInventory
   id: CentDrobeInventory
   startingInventory:
+    MaterialPaperPrinter: 10 #_Ck
+    boxForPrinterCC: 10 #_Ck
+    boxForShreder: 10 #_Ck
     ClothingShoesBootsLaceup: 3
     ClothingShoesBootsJack: 3
     ClothingHandsGlovesCombat: 3
