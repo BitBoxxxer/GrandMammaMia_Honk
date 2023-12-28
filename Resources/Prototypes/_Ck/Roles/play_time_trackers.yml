@@ -8,9 +8,6 @@
   id: JobPovar
 
 - type: playTimeTracker
-  id: JobRatatui
-
-- type: playTimeTracker
   id: JobJudge
   
 - type: playTimeTracker
